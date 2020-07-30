@@ -1,0 +1,469 @@
+/*HOME SECTIONS*/
+section {
+  display: inline-block;
+  overflow-x: hidden;
+}
+
+.content section:nth-child(2) {
+  background: url("img/gengar.jpg") no-repeat;
+  background-size: cover;
+}
+
+.content section:nth-child(2) {
+  background: url("img/gengar-mv.jpg") no-repeat;
+  background-size: cover;
+
+}
+
+.content section:nth-child(3) {
+  background: url("img/pikachu-mov.png") no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  right: 25%;
+  font-size: 7em;
+  position: absolute;
+  letter-spacing: 3px;
+}
+
+#page-one>img {
+
+  top: 40%;
+  left: 5%;
+  position: relative;
+  height: 50%;
+  width: 100%;
+
+}
+
+.pokedex-btn {
+  left: 30%;
+  top: 80%;
+  width: 40%;
+  background: transparent;
+  border-radius: 50px;
+  font-size: 1em;
+
+}
+
+#pageTwo>h1 {
+  right: 0%;
+  font-size: 7em;
+  /* margin: 40% 20% 0; */
+  text-align: center;
+  position: relative;
+  clear: both;
+}
+
+.pokedex-btn2 {
+  top: 40%;
+  width: 50%;
+  left: 18%;
+  position: relative;
+  font-size: 0.8em;
+}
+
+.pokedex-btn3 {
+  top: 80%;
+  left: 30%;
+  position: relative;
+  font-size: 1em;
+  width: 40%;
+}
+/*POKEDEX*/
+#pokeDex {
+  /*margin:  40% 12%;*/
+  margin:auto;
+  transform: translate(25%, 48%);
+  width: 70%;
+  height: 55%;
+  border: 4px solid rgb(81, 255, 0);
+  overflow-x: scroll;
+  position:absolute;
+}
+/*BUSCAR*/
+  /*.buscar{
+    margin:auto;
+    position:absolute;
+    transform: translate(140%,480% );
+    width:250px;
+    /*margin-left: 40px;
+  }*/
+  .buscar{
+    position:relative;
+    transform: translate(20%,20%);
+    width:250px;
+    /*margin-left: 40px;*/
+  }
+  #search1{
+    height:42px;
+    width:44px;
+    border-radius: 50%;
+   }
+   #searchh{
+    height:40px;
+    width:40px;
+    border: 2px solid black;
+    border-radius: 30px;
+   }
+   .buscar_texto:focus{
+    padding: 5px;
+    transition: 0.25s;
+    font-size: 65%;  
+  }
+/*POKEMON CARDS*/
+.card {
+  width: 40%;
+  height: 55%;
+}
+/*POKEMON CARDS MODAL*/
+#divCardInfo h3 {
+  margin: 20px 5PX;
+}
+#divCardInfo .infoTitle {
+  margin: -25% 5px 15px;
+}
+#divCardInfo .height-text {
+  margin: -50px 15px 5px;
+}
+#divCardInfo .weight-text {
+  margin: -30px 15px;
+}
+#divCardInfo .weaks {
+  margin: 2px 15px 5px;
+}
+/*Evolution*/
+
+.logo-mov{
+  display: none;
+}
+/*EVOLUTION MODAL*/
+.modalPokeEvol {
+  width: 100%;
+  height: 70%;
+  font-size: 0.7em;
+}
+.closeModal-pokemonEvol {
+  transform: translateY(-220px);
+}
+.sliderSection{
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 425px) {
+  h1 {
+
+    font-size: 4em;
+  }
+
+  #pageTwo>h1 {
+    right: 0%;
+    font-size: 4em;
+    margin: 40% 18% 0;
+    text-align: center;
+    position: relative;
+    clear: both;
+  }
+
+  .content section:nth-child(2) {
+    background: url("img/gengar-cel2.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .content section:nth-child(3) {
+    background: url("img/pika-cel.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  /*MENU*/
+
+  #menu_principal li {
+    margin: auto;
+    height: auto;
+  }
+
+  #menu_principal {
+    padding-top: 20%;
+  }
+
+  li>ul {
+    position: static;
+    height: auto;
+    box-shadow: none;
+    padding-left: 15px;
+    width: auto;
+  }
+
+  nav {
+    overflow-y: auto;
+    max-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .mif-expand-more {
+    display: inline;
+  }
+
+  ul li .mif-chevron-right {
+    display: none;
+  }
+
+  [id^=drop]:checked+ul {
+    display: block;
+  }
+
+  .container nav ul li:hover>ul {
+    display: none;
+  }
+  #pokeDex {
+    /*margin: 62% 12%;*/
+    margin:auto;
+    transform: translate(25%, 55%);
+    overflow-x: scroll;
+    border: 4px solid rgb(226, 205, 16);
+    width:70%;
+    height:58%;
+    position:absolute;
+  }
+  /*BUSCAR*/
+  .buscar_texto{
+    font-size: 7.5px;
+    /*margin-top: 20px;*/
+  }
+  .buscar{
+    width:25%; 
+    /*transform: translate(10px,10px );*/
+    top:27%;
+    position:absolute;
+  }
+  #search1{
+   height:22px;
+   width:24px;
+   border-radius: 50%;
+   /*margin-top: 15px;*/
+  }
+  #searchh{
+   height:20px;
+   width:20px;
+   border: 2px solid black;
+   border-radius: 20px;
+  }
+  .buscar_texto:focus{
+    padding: 5px;
+    transition: 0.25s;
+    font-size: 50%;  
+  }
+  
+  .card {
+
+    width: 100%;
+    height: 70%;
+  }
+
+  .close-modal {
+    color: red;
+  }
+
+  .popup {
+    width: 70%;
+  }
+
+  .popup>h3 {
+    font-size: 1em;
+  }
+
+  /*MODAL*/
+  #divCardInfo {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+  }
+
+  #divCardInfo img {
+    margin: -130px 40px 10px;
+    width: 40%;
+    float: none;
+  }
+
+  .pokemonTypeInfo {
+    border-radius: 10px;
+    width: 100%;
+    height: 40%;
+  }
+
+  #divCardInfo h3 {
+    float: none;
+    text-align: center;
+    margin: 0;
+  }
+
+  #divCardInfo .tipoTitle {
+    display: block;
+    float: none;
+    margin: 5px auto;
+  }
+
+  #divCardInfo .type-text {
+    margin: 5px;
+    font-size: 0.8em;
+    font-size: inherit;
+    float: none;
+  }
+
+  #divCardInfo .infoTitle {
+    float: none;
+    font-weight: 600;
+    margin: 10px;
+    font-size: 1em;
+    color: gray;
+  }
+
+  #divCardInfo .height-text {
+    float: none;
+    font-size: 0.9em;
+    margin: 0px 50px 5px;
+  }
+
+  #divCardInfo .weight-text {
+    float: none;
+    margin: auto;
+    font-size: 0.9em;
+  }
+
+  #divCardInfo .weakTitle {
+    font-size: 1em;
+    font-weight: 600;
+    margin: 20px 40PX 0;
+    color: gray;
+  }
+
+  #divCardInfo .weaks {
+    float: none;
+    font-size: 0.8;
+    margin: 0;
+  }
+
+  .closeModal-pokemon {
+    float: right;
+    text-align: center;
+    color: white;
+    margin: -400px 20px 0;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+  }
+
+/*MODAL EVOLUTION*/
+#divCardInfoEvol {
+  width: 90%;
+  height: 60%;
+}
+/*MENU RESPONSIVE EVOLUTION*/
+.checkbtn{
+  display: block;
+  margin-right: 40px;
+}
+header >nav ul{
+  position: fixed;
+    width: 30%;
+    height: 25vh;
+    background:var(--color-pokedex);
+    top: 50px;
+    right: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+header >nav ul li{
+  display: block;
+  margin: 5px 0;
+  line-height: 20px;
+  border-bottom:1px solid rgba(255, 255, 255, 0.3);
+}
+#check:checked ~ ul{
+  right: 0;
+}
+header>nav ul li .evol {
+  font-size: 13px;
+  padding: 30px 5px;
+}
+.slide .containerCanva {
+  width: 80%;
+  height: 40%;
+  transform: translateX(40px);
+}
+canvas{
+  width: 300px; 
+  height: 200px;
+}
+.averageBtn {
+  display: inline-block;
+  justify-content: space-evenly;
+  margin: 50px 0 0;
+}
+.sliderSection{
+  overflow-x: hidden;
+  width: 100vw;
+  height: 80vh;
+}
+.btn-avg {
+  width: 60px;
+  height: 50px;
+  padding: 5px;
+  padding: 5p;
+}
+  #averagePoke {
+    margin: 20px auto;
+    font-size: 0.8em;
+}
+.mapa{
+  width: 100vw;
+  height: 100vh;
+}
+/* .area {
+  background:#fff;
+  display:block;
+  height:475px;
+  opacity:0;
+  position:absolute;
+  width:320px;
+}
+#area2 {
+  left:320px;
+}
+#area1:hover, #area2:hover {
+  opacity:0.2;
+} */
+/* #image{
+	position:absolute;
+	display:none;
+} */
+
+}
+/*@media screen and (min-width:480px){
+  .buscar{ 
+    width:40%; 
+    margin:auto;
+    transform: translate(105%,700% );
+    position:absolute;
+    /*margin-left: 50px;
+    margin-top: 15px;
+  }
+  #search1{
+    height:32px;
+    width:34px;
+    border-radius: 50%;
+    /*margin-top: 15px;
+   }
+   #searchh{
+    height:30px;
+    width:30px;
+    border: 2px solid black;
+    border-radius: 20px;
+   }
+   .buscar_texto:focus{
+    padding: 5px;
+    transition: 0.25s;
+    font-size: 60%;  
+  }
+}*/
