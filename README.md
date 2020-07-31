@@ -70,13 +70,13 @@ El segundo reto era poder hacer la transicion entre diferentes secciones de la p
 
 * [x] Uso de condicionales (if-else | switch | operador ternario)
 * [x] Uso de bucles (for | for..in | for..of | while)
-* [x] Uso de funciones (parámetros | argumentos | valor de retorno)
+* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
 * [x] Manipular arrays (filter | map | sort | reduce)
 * [ ] Manipular objects (key | value)
 * [x] Uso ES modules ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 | [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
-* [ ] Diferenciar entre expression y statements.
-* [ ] Diferenciar entre tipos de datos atómicos y estructurados.
+* [x] Diferenciar entre expression y statements.
+* [x] Diferenciar entre tipos de datos atómicos y estructurados.
 
 ## Checklist
 
@@ -98,4 +98,4 @@ El segundo reto era poder hacer la transicion entre diferentes secciones de la p
 * [x] UI: Muestra lista y/o tabla con datos y/o indicadores.
 * [x] UI: Permite ordenar data por uno o más campos (asc y desc).
 * [x] UI: Permite filtrar data en base a una condición.
-* [ ] UI: Es _responsive_.
+* [x] UI: Es _responsive_.
