@@ -28,7 +28,10 @@ Link prototipos de alta fidelidad: https://www.figma.com/file/z8ybk9cKzT2yxaedk2
 <img src="https://github.com/lalopez13/BOG001-data-lovers/blob/LAURA-AVANCES/src/img/20200627_103633.jpg" width="200">
 
  #### PROTOTIPOS ALTA FIDELIDAD
+ 
+<img src="https://github.com/Claraescobar123/BOG001-data-lovers/blob/master/src/img/Prototipo_Alta_Fidelidad_Cel.jpg" width="200">  <img src="https://github.com/Claraescobar123/BOG001-data-lovers/blob/master/src/img/Prototipo_Alta_Fidelidad_Cel1.jpg" width="200">  <img src="https://github.com/Claraescobar123/BOG001-data-lovers/blob/master/src/img/Prototipo_Alta_Fidelidad_Cel2.jpg" width="200">
 
+ ##### Enlace de Figma = https://www.figma.com/file/naixWEoCR7fnKgKpfMUhWL/Data-Lovers?node-id=0%3A1
 
 
  #### :art: DISEÑO
