@@ -78,6 +78,29 @@ El segundo reto era poder hacer la transicion entre diferentes secciones de la p
 * [ ] Diferenciar entre expression y statements.
 * [x] Diferenciar entre tipos de datos atómicos y estructurados.
 
+### Testing
+
+* [x] [Testeo unitario.](https://jestjs.io/docs/es-ES/getting-started)
+
+### Estructura del código y guía de estilo
+
+* [x] Organizar y dividir el código en módulos (Modularización)
+* [x] Uso de identificadores descriptivos (Nomenclatura | Semántica)
+* [x] Uso de linter (ESLINT)
+
+### Git y GitHub
+
+* [x] Uso de comandos de git (add | commit | pull | status | push)
+* [x] Manejo de repositorios de GitHub (clone | fork | gh-pages)
+* [ ] Colaboración en Github (branches | pull requests | |tags)
+
+### UX
+
+* [x] Diseñar la aplicación pensando y entendiendo al usuario.
+* [x] Crear prototipos para obtener feedback e iterar.
+* [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
+* [x] Planear y ejecutar tests de usabilidad.
+
 ## Checklist
 
 * [x] Usa VanillaJS.
