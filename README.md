@@ -75,7 +75,7 @@ El segundo reto era poder hacer la transicion entre diferentes secciones de la p
 * [ ] Manipular objects (key | value)
 * [x] Uso ES modules ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 | [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
-* [x] Diferenciar entre expression y statements.
+* [ ] Diferenciar entre expression y statements.
 * [x] Diferenciar entre tipos de datos atómicos y estructurados.
 
 ## Checklist
